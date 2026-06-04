@@ -11,16 +11,7 @@ fi
 export SSL_CERT_DIR="$HOME/.aspnet/dev-certs/trust:/etc/ssl/certs"
 
 export PATH=~/.dotnet/tools:$PATH
-export PATH="/run/user/1000/fnm_multishells/54469_1780347260598/bin":$PATH
-
-export FNM_MULTISHELL_PATH="/run/user/1000/fnm_multishells/54942_1780347460733"
-export FNM_VERSION_FILE_STRATEGY="local"
-export FNM_DIR="/home/quinn/.local/share/fnm"
-export FNM_LOGLEVEL="info"
-export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
-export FNM_COREPACK_ENABLED="false"
-export FNM_RESOLVE_ENGINES="true"
-export FNM_ARCH="x64"
+. /usr/share/nvm/init-nvm.sh
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
