@@ -11,7 +11,7 @@ fi
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 export SSL_CERT_DIR="$HOME/.aspnet/dev-certs/trust:/etc/ssl/certs"
-
+alias gst='git status'
 export PATH=~/.dotnet/tools:$PATH
 . /usr/share/nvm/init-nvm.sh
 
@@ -133,3 +133,5 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME/bin:$PATH" ;;
 esac
 # pnpm end
+
+. "$HOME/.local/bin/env"
